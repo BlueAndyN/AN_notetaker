@@ -41,8 +41,6 @@ notes.post('/', (req, res) => {
 });
 
 
-// Delete
-// How do I specify which one gets deleted? index.js has an "ID" line?
 notes.delete('/:id', (req, res) => {
      // Destructuring assignment for the items in req.body
     const { id } = req.params;
